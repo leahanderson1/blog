@@ -6,11 +6,11 @@
   :root,
   html[data-theme="dark"] {
     --color-fill: 30, 30, 46;
-    --color-accent: 97, 123, 255;
+    --color-accent: 137, 220, 235;
     --color-text-base: 205, 214, 244;
     --color-card: 33, 34, 83;
     --color-card-muted: 12, 14, 79;
-    --color-border: 0, 0, 0;
+    --color-border: 137, 220, 235;
   }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
