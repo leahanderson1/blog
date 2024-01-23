@@ -27,25 +27,25 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Github",
     href: "https://github.com/OtterCodes101",
-    linkTitle: `my github`,
+    linkTitle: `Github`,
     active: true,
   },
   {
     name: "Mail",
     href: "mailto:otterdev@memeware.net",
-    linkTitle: `Send an email to ${SITE.title}`,
+    linkTitle: `Send an email to me`,
     active: true,
   },
   {
     name: "Twitch",
     href: "https://twitch.tv/otterdev101",
-    linkTitle: `${SITE.title} on Twitch`,
+    linkTitle: `Twitch`,
     active: true,
   },
   {
     name: "YouTube",
     href: "https://youtube.com/@otterdev101",
-    linkTitle: `${SITE.title} on YouTube`,
+    linkTitle: `YouTube`,
     active: true,
   },
   {
