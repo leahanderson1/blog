@@ -1,3 +1,4 @@
+# Modified files, update the modDatetime
 git diff --cached --name-status |
 grep -i '^M.*\.md$' |
 while read _ file; do
@@ -16,10 +17,4 @@ while read _ file; do
     mv tmp $file
     git add $file
   fi
-done
-# New files, add/update the pubDatetime
-git diff --cached --name-status | egrep -i "^(A).*\.(md)$" | while read a b; do
-  cat $b | sed "/---.*/,/---.*/s/^pubDatetime:.*$/pubDatetime: $(date -u "+%Y-%m-%dT%H:%M:%SZ")/" > tmp
-  mv tmp $b
-  git add $b
 done
