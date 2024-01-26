@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://otter.is-a.dev", // replace this with your deployed domain
   author: "Oliver Anderson",
-  desc: "welcome to my blog ig",
+  desc: "my blog",
   title: "OtterDev's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
