@@ -33,7 +33,7 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Mail",
     href: "mailto:otterdev@memeware.net",
-    linkTitle: `Send an email to me`,
+    linkTitle: `Email`,
     active: true,
   },
   {
