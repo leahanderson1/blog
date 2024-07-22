@@ -18,10 +18,10 @@ const { activeNav } = Astro.props;
         {
           LOGO_IMAGE.enable ? (
             <img
-              src={`/blog/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
+              src="https://avatars.githubusercontent.com/u/144633084"
               alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
+              width=256
+              height=256
             />
           ) : (
             SITE.title
