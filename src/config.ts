@@ -38,9 +38,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitch",
-    href: "https://twitch.tv/otterdev101",
+    href: "https://example.com",
     linkTitle: `Twitch`,
-    active: true,
+    active: false,
   },
   {
     name: "YouTube",
