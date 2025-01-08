@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://otter.is-a.dev", // replace this with your deployed domain
-  author: "Leah",
-  desc: "the yapping goes crazy in here",
+  website: "https://leah.chromebooks.lol", // replace this with your deployed domain
+  author: "Leah Anderson",
+  desc: "Leah's silly personal blog :3",
   title: "Leah's Blog",
   ogImage: "blog-og.png",
   lightAndDarkMode: false,
@@ -32,7 +32,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:otterdev@memeware.net",
+    href: "mailto:leah.anderson4435@proton.me",
     linkTitle: `Email`,
     active: true,
   },
@@ -44,7 +44,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://youtube.com/@otterdev101",
+    href: "https://youtube.com/@leahonbrainrot",
     linkTitle: `YouTube`,
     active: true,
   },
@@ -104,7 +104,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Steam",
-    href: "https://steamcommunity.com/id/otterdev101/",
+    href: "https://steamcommunity.com/id/leahonbrainrot/",
     linkTitle: `Steam`,
     active: true,
   },
